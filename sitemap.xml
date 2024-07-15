@@ -7,7 +7,8 @@ layout: null
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for post in site.posts %}
     <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
+        <loc>{{ site.url | append: post.url | uri_escape }}</loc>
+        <debug>{{ site.url | append: post.url }}</debug> <!-- 디버깅 메시지 추가 -->
         {% if post.lastmod == null %}
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
         {% else %}
