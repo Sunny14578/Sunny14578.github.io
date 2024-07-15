@@ -72,16 +72,19 @@
     setDark() {
       document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE);
       sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
+      this.loadUtterances('github-dark'); 
     }
 
     setLight() {
       document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE);
       sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
+      this.loadUtterances('github-light');
     }
 
     clearMode() {
       document.documentElement.removeAttribute(ModeToggle.MODE_ATTR);
       sessionStorage.removeItem(ModeToggle.MODE_KEY);
+      this.loadUtterances(this.isPreferDark ? 'github-dark' : 'github-light');
     }
 
     {%- comment -%}
@@ -98,7 +101,7 @@
     }
 
     flipMode() {
-      if (this.hasMode) {
+      if (this.hasMode) { 
         this.clearMode();
       } else {
         if (this.isPreferDark) {
@@ -110,7 +113,35 @@
 
       this.notify();
     }
+
+    loadUtterances(theme) {
+      const commentsDiv = document.getElementById('utterances-comments');
+      if (commentsDiv) {
+        while (commentsDiv.firstChild) {
+          commentsDiv.removeChild(commentsDiv.firstChild);
+        }
+        const script = document.createElement('script');
+        script.src = 'https://utteranc.es/client.js';
+        script.setAttribute('repo', 'Sunny14578/Sunny14578.github.io');
+        script.setAttribute('issue-term', 'pathname');
+        script.setAttribute('theme', theme);
+        script.crossorigin = 'anonymous';
+        script.async = true;
+        commentsDiv.appendChild(script);
+      }
+    }
+    
   }
 
   const modeToggle = new ModeToggle();
+
+  document.addEventListener('DOMContentLoaded', () => {
+    if (modeToggle.hasMode) {
+      modeToggle.loadUtterances(modeToggle.mode === ModeToggle.DARK_MODE ? 'github-dark' : 'github-light');
+    } else {
+      modeToggle.loadUtterances(modeToggle.isPreferDark ? 'github-dark' : 'github-light');
+    }
+  });
+
+
 </script>

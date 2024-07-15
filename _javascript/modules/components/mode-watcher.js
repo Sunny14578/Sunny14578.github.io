@@ -10,5 +10,8 @@ export function modeWatcher() {
 
   toggle.addEventListener('click', () => {
     modeToggle.flipMode();
+
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+ 
   });
 }

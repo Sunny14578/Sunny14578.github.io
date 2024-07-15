@@ -10,6 +10,8 @@ tags: [LLM, LangChain]
 [HugginFace Page](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) llama3 model download
 
 ### HugginFace Hub 설치
-₩₩₩
+
+```python
 pip install hugginface-hub
-₩₩₩
+```
+
