@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Text and Typography
 description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
 author: cotes
@@ -18,7 +18,8 @@ image:
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-# H1 — heading
+
+<!-- # H1 — heading
 {: .mt-4 .mb-0 }
 
 ## H2 — heading
@@ -31,7 +32,7 @@ image:
 {: data-toc-skip='' .mt-4 }
 <!-- markdownlint-restore -->
 
-## Paragraph
+<!-- ## Paragraph
 퀴즈
 
 Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilisis ac. Phasellus semper dui non purus ultrices sodales. Aliquam ante lorem, ornare a feugiat ac, finibus nec mauris. Vivamus ut tristique nisi. Sed vel leo vulputate, efficitur risus non, posuere mi. Nullam tincidunt bibendum rutrum. Proin commodo ornare sapien. Vivamus interdum diam sed sapien blandit, sit amet aliquam risus mattis. Nullam arcu turpis, mollis quis laoreet at, placerat id nibh. Suspendisse venenatis eros eros.
@@ -69,11 +70,11 @@ Moon
 
 > This line shows the _block quote_.
 
-## Prompts
+## Prompts -->
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> An example showing the `tip` type prompt.
+<!-- > An example showing the `tip` type prompt.
 {: .prompt-tip }
 
 > An example showing the `info` type prompt.
@@ -83,18 +84,18 @@ Moon
 {: .prompt-warning }
 
 > An example showing the `danger` type prompt.
-{: .prompt-danger }
+{: .prompt-danger } -->
 <!-- markdownlint-restore -->
 
-## Tables
+<!-- ## Tables
 
 | Company                      | Contact          | Country |
 | :--------------------------- | :--------------- | ------: |
 | Alfreds Futterkiste          | Maria Anders     | Germany |
 | Island Trading               | Helen Bennett    |      UK |
-| Magazzini Alimentari Riuniti | Giovanni Rovelli |   Italy |
+| Magazzini Alimentari Riuniti | Giovanni Rovelli |   Italy | -->
 
-## Links
+<!-- ## Links
 
 <http://127.0.0.1:4000>
 
@@ -125,9 +126,9 @@ if [ $? -ne 0 ]; then
   echo "The command was not successful.";
   #do the needful / exit
 fi;
-```
+``` -->
 
-### Specific filename
+<!-- ### Specific filename
 
 ```sass
 @import
@@ -165,8 +166,8 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 ## Images
 
-### Default (with caption)
-
+### Default (with caption) -->
+<!-- 
 ![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" }
 _Full screen width and center alignment_
 
@@ -198,4 +199,5 @@ The image below will toggle dark/light mode based on theme preference, notice it
 ## Reverse Footnote
 
 [^footnote]: The footnote source
-[^fn-nth-2]: The 2nd footnote source
+[^fn-nth-2]: The 2nd footnote source  -->
+ 
