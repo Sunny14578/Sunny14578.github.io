@@ -27,7 +27,23 @@
     }
   }
 
+  
+
   (function () {
+
+    const html = document.documentElement;
+
+            // 초기 로딩 시 data-mode를 'light'로 설정
+            html.setAttribute('data-mode', 'light');
+
+            // 사용자의 시스템 설정을 확인하여 다크 모드일 경우 변경
+            if (
+                (html.hasAttribute('data-mode') && html.getAttribute('data-mode') === 'dark') ||
+                (!html.hasAttribute('data-mode') && window.matchMedia('(prefers-color-scheme: dark)').matches)
+            ) {
+                html.setAttribute('data-mode', 'dark');
+            }
+
     let initTheme = 'default';
     const html = document.documentElement;
 
