@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>초이태양</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-07-22T17:57:04+09:00</updated>
+  <updated>2024-07-23T17:38:18+09:00</updated>
   <author>
     <name>Choitaeyang</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,50 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>linux - logrotate.d를 이용한 로그파일 관리 </title>
+    <link href="http://localhost:4000/posts/blog7/" rel="alternate" type="text/html" title="linux - logrotate.d를 이용한 로그파일 관리 " />
+    <published>2024-07-23T13:00:00+09:00</published>
+  
+    <updated>2024-07-23T13:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/blog7/</id>
+    <content src="http://localhost:4000/posts/blog7/" />
+    <author>
+      <name>Choitaeyang</name>
+    </author>
+
+  
+    
+    <category term="linux" />
+    
+  
+
+  <summary>서버를 운영하면서 로그가 계속 쌓여 디스크 용량이 꽉차게 되어 서비스가 중단되는 경험을 하게 되어
+로그를 주기적으로 관리해주는 logrotate에 대해서 알아보도록 하겠습니다.
+
+logrotate
+
+
+리눅스 시스템에서 로그 파일을 자동으로 관리하는 도구이며. 로그 파일이 무한히 커지는 것을 방지하고, 디스크 공간을 효율적으로 사용할 수 있도록 돕습니다.
+
+주요기능
+
+  로그 회전 : 일정 주기마다 새로운 로그 파일을 생성하고, 오래된 로그 파일을 보관
+  압축 : 회전된 로그 파일을 압축하여 디스크 공간을 절약
+  삭제 : 일정 기간이 지난 로그 파일을 자동으로 삭제
+  스크립트 실행 : 로그 회전 후 특정 명령이나 스크립트 실행
+
+
+
+  여기서 회전의 의미는 새로운 파일을 생성하다라는 의미
+
+
+설정하...</summary>
+
+  </entry>
 
   
   <entry>
@@ -38,21 +82,23 @@
     
   
 
-  <summary>출처 docs
+  <summary>출처 : IT 엔지니어를 위한 네트워크 입문
 
 OSI 7계층에 대해서 알아보기 위해 프로토콜의 개념을 익혀보자.
 
 프로토콜
 
 프로토콜은 규정이나 규약과 관련된 내용을 언급할 때 사용한다. 네트워크에서의 통신 규약도 프로토콜이라는 용어를 사용한다. 
-한정된 자원으로 통신을 수행해야 하다 보니 최대한 적은 데이터를 이용해 효율적인 프로토콜을 정의하고 사용해야 했다.   
+한정된 자원으로 통신을 수행해야 하다 보니 최대한 적은 데이터를 이용해 효율적인 프로토콜을 정의하고 사용해야 했다.  
 기존에는 적은 컴퓨팅 자원과 매우 느린 네트워크 속도를 이용했기 때문에 효율을 위해 2진수 비트기반으로 만들어졌다.
+
+
 
 OSI 7계층
 
 과거에는 통신용 규약이 표준화되지 않았고 각 벤더에서 별도로 개발했기 때문에 호환되지 않는 시스템이나 애플리케이션이 많아서 통신이 불가능했다. 
 
-이를 하나로 규약으로 통합하려는 노력이 현재의 OSI 7계층으로 남아있다. 바로 이것이 네...</summary>
+이를 하나로 규약으로 통합하려는 노력이 현재의 OSI 7계...</summary>
 
   </entry>
 
@@ -147,7 +193,7 @@ _da...</summary>
     <link href="http://localhost:4000/posts/blog3/" rel="alternate" type="text/html" title="Github Blog 만들기 - Google Analytics" />
     <published>2024-07-16T11:30:00+09:00</published>
   
-    <updated>2024-07-16T15:18:50+09:00</updated>
+    <updated>2024-07-22T17:57:15+09:00</updated>
   
     <id>http://localhost:4000/posts/blog3/</id>
     <content src="http://localhost:4000/posts/blog3/" />
@@ -196,54 +242,6 @@ Google Analytics는 웹사이트와 앱 모두에서 이벤트 기반 데이터�
 데이터 스트림 생성
 
 본인 웹사이트 URL ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Github Blog 만들기 - Utterances 댓글 기능 추가</title>
-    <link href="http://localhost:4000/posts/blog2/" rel="alternate" type="text/html" title="Github Blog 만들기 - Utterances 댓글 기능 추가" />
-    <published>2024-07-15T17:15:00+09:00</published>
-  
-    <updated>2024-07-16T13:50:35+09:00</updated>
-  
-    <id>http://localhost:4000/posts/blog2/</id>
-    <content src="http://localhost:4000/posts/blog2/" />
-    <author>
-      <name>Choitaeyang</name>
-    </author>
-
-  
-    
-    <category term="Github Blog" />
-    
-  
-
-  <summary>utterances 댓글기능 사용해보기
-
-
-utterances : Github의 이슈를 이용해 댓글로 표시하는 기능
-
-utterances.app 홈페이지에 접속하면 오른쪽에 install 탭이 있다. 버튼을 클릭하여 설치해준다.
-
-
-
-필자는 이미 설치되어있어 Configure로 표시
-
-설치 후에 github login 창이 뜬다면 login 후 진행
-
-
-
-댓글기능을 적용할 하나의 레파지토리에 적용하기 위해 select 해준다.
-
-정상적으로 설치가 됐다면 기존의 Utterances 페이지로 돌아온다.
-
-Configuration
-
-
-Utterances 페이지의 중간지점에 configuration tab에서 나의 레파지토리 주소를 입력해준다. 
-입력형식 저장소ID/저장소명  
-ex: sunny14578/su...</summary>
 
   </entry>
 
