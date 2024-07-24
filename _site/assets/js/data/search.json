@@ -18,6 +18,40 @@
   },
   
   {
+    "title": "CS - BCP (Business Continuity Planning)",
+    "url": "/posts/blog9/",
+    "categories": "CS ( Computer Science )",
+    "tags": "정보처리기사, BCP",
+    "date": "2024-07-22 13:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "비즈니스 연속성 계획 관련 용어 정리BCP ( Business Continuity Planning )재난 및 재해 상황을 대비하여 기업의 비즈니스 연속성을 유지하기 위한 업무 복구에 대한 계획BIA(Business Impact Analysis)  장애나 재해로 인해 운영상의 주요 손실을 볼 것을 가정하여 시간 흐름에 따른 영향도 및 손실 평가를 조사하...",
+    "content": "비즈니스 연속성 계획 관련 용어 정리BCP ( Business Continuity Planning )재난 및 재해 상황을 대비하여 기업의 비즈니스 연속성을 유지하기 위한 업무 복구에 대한 계획BIA(Business Impact Analysis)  장애나 재해로 인해 운영상의 주요 손실을 볼 것을 가정하여 시간 흐름에 따른 영향도 및 손실 평가를 조사하는 BCP를 구축하기 위한 비즈니스 영향 분석RTO(Recovery Time Objective)  업무 중단 시점부터 업무가 복구 되어 다시 가동 될 때까지의 시간. 재해 시 복구 목표 시간의 선정RPO(Recovery Point Objective)  업무 중단 시점부터 데이터가 복구되어 다시 정상가동될 때 데이터의 손실 허용 시점. 재해 시 복구 목표 지점의 선정DRP(Disaster Recovery Plan)  재난으로 장기간에 걸쳐 시설의 운영이 불가능한 경우를 대비한 재난 복구 계획DRS(Disaster Recovery System)  재해복구계획의 원활한 수행을 지원하기 위하여 평상시에 확보하여 두는 인적, 물적자원 및 이들에 대한 지속적인 관리체계가 통합된 재해복구센터Warm Site  재해복구센터에 주 센터와 동일한 수준의 자원을 보유하는 대신 중요성이 높은 자원만 부분적으로 재해복구센터에 보유하고 있는 방식으로 재해 발생 시 복구까지의 소요 시간은 수일 ~ 수주가 걸린다."
+  },
+  
+  {
+    "title": "CS - 암호화 알고리즘",
+    "url": "/posts/blog8/",
+    "categories": "CS ( Computer Science )",
+    "tags": "정보처리기사, 암호화",
+    "date": "2024-07-22 13:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "암호화 알고리즘 종류대칭키 암호화대칭키 암호화에서는 동일한 키가 암호화와 복호화에 사용됩니다. 빠르고 효율적이지만, 키의 안전한 분배와 관리가 중요합니다.DES (Data Encryption Standard)  미국 연방 표준국(NIST)에서 발표한 대칭키 기반의 블록 암호화방식 ( 64bit )  과거에 널리 사용되었으나 현재는 보안성이 낮아 많이 ...",
+    "content": "암호화 알고리즘 종류대칭키 암호화대칭키 암호화에서는 동일한 키가 암호화와 복호화에 사용됩니다. 빠르고 효율적이지만, 키의 안전한 분배와 관리가 중요합니다.DES (Data Encryption Standard)  미국 연방 표준국(NIST)에서 발표한 대칭키 기반의 블록 암호화방식 ( 64bit )  과거에 널리 사용되었으나 현재는 보안성이 낮아 많이 사용되지 않는다.AES (Advanced Encryption Standard)  가장 널리 사용되는 대칭키 암호화 알고리즘 중 하나 DES에서 발전  128, 192, 256 비트키 지원  보안성과 성능이 뛰어나며, 미국 정부 표준으로 채택SEED  국내에서 개발한 블록 암호화 알고리즘 ( 128bit )  128bit 비밀키로부터 16개의 64비트 라운드 키가 생성ARIA(Academy, Research, Institute)  학계, 연구기관, 정부, 국정원과 산학연구협회가 발표한 블록암호화 알고리즘 ( 128bit )IDEA(international Data ENcryption Algorithm)  DES를 대체 하기 위해 스위스 연방기술 기관에서 개발한 블록암호화 알고리즘 ( 128 bit )비대칭키 암호화비대칭키 암호화에서는 공개키와 개인키라는 두 가지 키가 사용됩니다. 공개키로 데이터를 암호화하고 개인키로 이를 복호화합니다.이 방법은 키 분배 문제를 해결하지만, 대칭키 암호화보다 속도가 느립니다.디피-헬만 (Diffie-Hellman)  1976년에 고안된 최초의 공개키 알고리즘  이산대수의 계산이 어려운 문제를 기본원리로 함  두 사용자 간 공통의 암호화키를 안전하게 공유할 방법을 제시RSA (Rives Shamir Adleman)  1977년 3명의 MIT 수학 교수가 고안한 암호화 알고리즘  큰 인수의 곱을 소인수 분해하는 수학적 알고리즘 이용  주로 키 교환, 디지털 서명, 데이터 암호화에 사용ECC (Elliptic Cruve Cryptography)  1985에 코블리치와 밀러가 제안  RSA 암호화에 대한 대안, RSA보다 키의 비트 수를 적게 하면서 동일한 성능 제공  유한체 위에 정의된 타원곡선 군에서의 이산대수 문제에 기초DSA (Digital Signature Algorithm)  정부용 전자서명 알고리즘  안전성은 이산대수 문제 어려움에 기반Elgamal  공개키 알고리즘, RSA와 유사  이산대수의 계산이 어려운 문제를 기본원리로 함해시 암호화SHA 시리즈  1993년 미국 국가안보국이 설계, 미국 국립표준기술연구소에 의해 발표MD5(Message Digest algorithm 5)  1991년 R.Rivest가 MD4를 대체하기 위해 고안한 암호화 해시 함수  블록 크기는 512비트, 키 길이는 128비트N-NASH  1989년 일본의 전신전화주식회사(NTT)에서 발표한 암호화 해시 함수  블록 크기는 128비트, 키 길이는 128비트SNEFRU  1990년 R.C.Merkle가 발표한 해시 함수  32비트 프로세서에서 구현을 용이하게 할 목적으로 개발"
+  },
+  
+  {
     "title": "CS - OSI 7계층 알아보기",
     "url": "/posts/blog6/",
     "categories": "CS ( Computer Science )",
