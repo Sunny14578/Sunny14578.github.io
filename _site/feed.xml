@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>http://0.0.0.0:4000/</id>
   <title>초이태양</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-07-28T23:11:16+09:00</updated>
+  <updated>2024-07-29T16:32:03+09:00</updated>
   <author>
     <name>Choitaeyang</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>http://0.0.0.0:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="ko-KR"
-    href="http://localhost:4000/"/>
+    href="http://0.0.0.0:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
   <rights> © 2024 Choitaeyang </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>정보처리기사 - Python 여러가지 기초문법 알아보기</title>
-    <link href="http://localhost:4000/posts/blog11/" rel="alternate" type="text/html" title="정보처리기사 - Python 여러가지 기초문법 알아보기" />
+    <link href="http://0.0.0.0:4000/posts/blog11/" rel="alternate" type="text/html" title="정보처리기사 - Python 여러가지 기초문법 알아보기" />
     <published>2024-07-28T13:00:00+09:00</published>
   
     <updated>2024-07-28T13:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/blog11/</id>
-    <content src="http://localhost:4000/posts/blog11/" />
+    <id>http://0.0.0.0:4000/posts/blog11/</id>
+    <content src="http://0.0.0.0:4000/posts/blog11/" />
     <author>
       <name>Choitaeyang</name>
     </author>
@@ -58,20 +58,22 @@ python은 C언어와 Java언어와는 다르게 변수생성시 자료형을 표
     # 출력은 print() 함수를 이용한다.
 
     print(x)
-    print(f)</summary>
+    print(f)  
+    # 10
+    # 3.14</summary>
 
   </entry>
 
   
   <entry>
     <title>linux - logrotate.d를 이용한 로그파일 관리 </title>
-    <link href="http://localhost:4000/posts/blog7/" rel="alternate" type="text/html" title="linux - logrotate.d를 이용한 로그파일 관리 " />
+    <link href="http://0.0.0.0:4000/posts/blog7/" rel="alternate" type="text/html" title="linux - logrotate.d를 이용한 로그파일 관리 " />
     <published>2024-07-23T13:00:00+09:00</published>
   
     <updated>2024-07-23T13:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/blog7/</id>
-    <content src="http://localhost:4000/posts/blog7/" />
+    <id>http://0.0.0.0:4000/posts/blog7/</id>
+    <content src="http://0.0.0.0:4000/posts/blog7/" />
     <author>
       <name>Choitaeyang</name>
     </author>
@@ -109,13 +111,13 @@ logrotate
   
   <entry>
     <title>정보처리기사 - 디자인패턴</title>
-    <link href="http://localhost:4000/posts/blog9/" rel="alternate" type="text/html" title="정보처리기사 - 디자인패턴" />
+    <link href="http://0.0.0.0:4000/posts/blog9/" rel="alternate" type="text/html" title="정보처리기사 - 디자인패턴" />
     <published>2024-07-22T13:00:00+09:00</published>
   
     <updated>2024-07-25T16:37:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/blog9/</id>
-    <content src="http://localhost:4000/posts/blog9/" />
+    <id>http://0.0.0.0:4000/posts/blog9/</id>
+    <content src="http://0.0.0.0:4000/posts/blog9/" />
     <author>
       <name>Choitaeyang</name>
     </author>
@@ -155,13 +157,13 @@ Builder (빌더)
   
   <entry>
     <title>정보처리기사 - 암호화 알고리즘</title>
-    <link href="http://localhost:4000/posts/blog8/" rel="alternate" type="text/html" title="정보처리기사 - 암호화 알고리즘" />
+    <link href="http://0.0.0.0:4000/posts/blog8/" rel="alternate" type="text/html" title="정보처리기사 - 암호화 알고리즘" />
     <published>2024-07-22T13:00:00+09:00</published>
   
     <updated>2024-07-25T16:37:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/blog8/</id>
-    <content src="http://localhost:4000/posts/blog8/" />
+    <id>http://0.0.0.0:4000/posts/blog8/</id>
+    <content src="http://0.0.0.0:4000/posts/blog8/" />
     <author>
       <name>Choitaeyang</name>
     </author>
@@ -201,13 +203,13 @@ SEED
   
   <entry>
     <title>CS - OSI 7계층 알아보기</title>
-    <link href="http://localhost:4000/posts/blog6/" rel="alternate" type="text/html" title="CS - OSI 7계층 알아보기" />
+    <link href="http://0.0.0.0:4000/posts/blog6/" rel="alternate" type="text/html" title="CS - OSI 7계층 알아보기" />
     <published>2024-07-22T13:00:00+09:00</published>
   
     <updated>2024-07-23T17:38:45+09:00</updated>
   
-    <id>http://localhost:4000/posts/blog6/</id>
-    <content src="http://localhost:4000/posts/blog6/" />
+    <id>http://0.0.0.0:4000/posts/blog6/</id>
+    <content src="http://0.0.0.0:4000/posts/blog6/" />
     <author>
       <name>Choitaeyang</name>
     </author>
