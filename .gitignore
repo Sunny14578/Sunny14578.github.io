@@ -8,6 +8,7 @@ Gemfile.lock
 
 # RubyGems
 *.gem
+Gemfile
 
 # NPM dependencies
 node_modules
@@ -16,4 +17,4 @@ package-lock.json
 # IDE configurations
 .idea
 .vscode/*
-
+_site/
