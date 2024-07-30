@@ -8,7 +8,6 @@ Gemfile.lock
 
 # RubyGems
 *.gem
-Gemfile
 
 # NPM dependencies
 node_modules
