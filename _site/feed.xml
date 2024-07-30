@@ -4,7 +4,7 @@
   <id>http://0.0.0.0:4000/</id>
   <title>초이태양</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-07-29T16:32:03+09:00</updated>
+  <updated>2024-07-30T13:48:49+09:00</updated>
   <author>
     <name>Choitaeyang</name>
     <uri>http://0.0.0.0:4000/</uri>
@@ -20,8 +20,8 @@
 
   
   <entry>
-    <title>정보처리기사 - Python 여러가지 기초문법 알아보기</title>
-    <link href="http://0.0.0.0:4000/posts/blog11/" rel="alternate" type="text/html" title="정보처리기사 - Python 여러가지 기초문법 알아보기" />
+    <title>정보처리기사 - Python 변수, 자료형 (1)</title>
+    <link href="http://0.0.0.0:4000/posts/blog11/" rel="alternate" type="text/html" title="정보처리기사 - Python 변수, 자료형 (1)" />
     <published>2024-07-28T13:00:00+09:00</published>
   
     <updated>2024-07-28T13:00:00+09:00</updated>
@@ -45,22 +45,21 @@
 python은 C언어와 Java언어와는 다르게 변수생성시 자료형을 표기하지 않는 동적 타입 언어입니다.
 정적 타입 언어인 언어에 익숙해져 있으신 분들은 python으로 개발할 때 가장 익숙하지 않는 부분이기도 합니다.
 
-숫자형 ( Numeric Types )
-
-    # 정수 (int) 
-    # 실수 (float)
 
     # 변수 생성시 변수이름 = 값 형태로 만들어 주면 된다.
 
     x = 10 # 정수
     f = 3.14 # 실수 
+    s = &amp;quot;Hello World&amp;quot; # 문자열
+    b = True # 논리
 
     # 출력은 print() 함수를 이용한다.
 
     print(x)
-    print(f)  
-    # 10
-    # 3.14</summary>
+    print(f)
+    print(s)
+    print(b)  
+    ...</summary>
 
   </entry>
 
