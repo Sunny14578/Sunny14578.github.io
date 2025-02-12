@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.3"
 gem "jekyll-theme-chirpy", "~> 7.0"
+gem "jekyll-sitemap"
 gem "webrick"  # Windows 환경에서 필요
 gem "csv"
 gem "base64"
